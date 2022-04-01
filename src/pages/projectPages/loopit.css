@@ -1,0 +1,7 @@
+.loopit__list {
+  list-style: outside;
+}
+
+.loopit__list li {
+  right: 5rem;
+}

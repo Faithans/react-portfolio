@@ -8,6 +8,10 @@ import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
+import AmazingTalker from "../pages/projectPages/AmazingTalker.jsx"
+import Loopit from "../pages/projectPages/Loopit.jsx"
+import Backcountry from "../pages/projectPages/Backcountry.jsx"
+
 const AnimatedSwitch = withRouter(({ location }) => (
   <TransitionGroup>
     <CSSTransition
@@ -24,6 +28,9 @@ const AnimatedSwitch = withRouter(({ location }) => (
         <Route path="/about" component={About} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={ContactUs} />
+        <Route path="/amazingTalker" component={AmazingTalker} />
+        <Route path="/loopit" component={Loopit} />
+        <Route path="/backcountry" component={Backcountry} />
         <Route path="*" component={Home} />
       </Switch>
     </CSSTransition>
