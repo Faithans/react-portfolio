@@ -16,9 +16,9 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "I am a frontend engineer who have extremly passion about aesthetic. Also a mechanical engineer with master"
-    +"degree, also a good friend, I enjoy problem solving and I have countless hobby when I am not coding, in summer you can find me hooping and in winter you can find me snowboarding.",
+    title: "A bit about myself",
+    aboutme: "I am a frontend engineer who have extremely passion about aesthetic. Also a mechanical engineer with master"
+    +"degree, also a good friend, I enjoy problem solving and I have countless hobbies when I am not coding, in summer you can find me hooping and in winter you can find me snowboarding.",
 };
 const worktimeline = [{
         jobtitle: "Frontend develooper of Amazing Talker",
