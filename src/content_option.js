@@ -33,7 +33,7 @@ const worktimeline = [{
     {
         jobtitle: "Fullstack engineer of Backcountry",
         where: "Buffalo",
-        date: "2019",
+        date: "2018",
     },
 ];
 
